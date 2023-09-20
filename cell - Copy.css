@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 3vw;
+    margin-bottom: 1%;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+.intro {
+    margin: auto;
+}
+
+body {
+    background: linear-gradient(rgb(98, 51, 173), rgb(47, 28, 110));
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-bottom: 10%;
+}
+
+.office {
+    max-width: 800px;
+    margin: 5% auto 0 auto;
+    position: relative;
+}
+
+.office img{
+    max-width: 100%;
+}
+
+.button {
+    height: 16px;
+    position: absolute;
+}
+
+.icon {
+    cursor: pointer;
+    margin-right: 5px;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    border: 3px solid;
+    border-color: rgba(255, 255, 255, 60%);
+    background-color: rgba(0, 0, 0, 40%);
+    transition-duration: 0.1s;
+}
+
+.icon:hover {
+    border-color: white;
+    background-color: rgba(255, 255, 255, 60%);
+}
+
+.name {
+    margin-top: 20%;
+    display: none;
+    position: absolute;
+    min-width: 300px;
+    width: auto;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    backdrop-filter: brightness(0.2);
+    padding: 10px;
+    z-index: 99;
+}
+
+.name h4{
+    margin-bottom: 10px;
+}
+.icon:active {
+    background-color: white;
+}
+
+.icon:hover .name{
+    display: block;
+}
+
+.icon:hover + .name, .name:hover{
+    display: block;
+}
+
