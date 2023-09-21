@@ -65,6 +65,7 @@ body {
     display: none;
     position: absolute;
     min-width: 300px;
+    max-width: 16%;
     width: auto;
     border-radius: 5px;
     backdrop-filter: blur(10px);
